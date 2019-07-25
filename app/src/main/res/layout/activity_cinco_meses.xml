@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <Button
+                android:id="@+id/btn_inicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_inicio"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="250dp"
+                android:text="@string/inicio"
+                android:textColor="@color/color_quest"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_quest"
+                android:textSize="17dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_GenSobreCinMes"
+                android:textColor="@color/color_quest"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- HABILIDADES DESENVOLVIDAS -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_desenvol"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_desenvol_sub"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Primeira"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Primeira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Segunda"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Segunda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Terceira"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Terceira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <!-- HABILIDADES EM DESENVOLVIMENTO -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_emDesenvol"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_emDesenvol_sub"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Quarta"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Quarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Quinta"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Quinta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <!-- HABILIDADES AVANÇADAS -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_avancadas"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_quest"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hab_avancadas_sub"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Sexta"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Sexta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/CincoMeses_Setima"/>
+
+            <Spinner
+                android:id="@+id/spinner_UmMes_Setima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </Spinner>
+
+            <Button
+                android:id="@+id/btn_confirmar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="17dp"
+                android:background="@color/btn_inicio"
+                android:text="@string/botao_confirmar"
+                android:textColor="@color/color_quest"
+                android:onClick="Resultado"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,391 @@
+<resources>
+    <string name="app_name">BabySteps Android</string>
+    <string name="nome_app">BabySteps</string>
+    <!-- TELA INICIAL -->
+    <string name="preencha">PREENCHA A IDADE, EM MESES, DA CRIANÇA.</string>
+    <!-- Strings do Spinner TELA INICIAL -->
+    <string-array name="spinner_inicial">
+        <item>1 Mês</item>
+        <item>2 Meses</item>
+        <item>3 Meses</item>
+        <item>4 Meses</item>
+        <item>5 Meses</item>
+        <item>6 Meses</item>
+        <item>7 Meses</item>
+        <item>8 Meses</item>
+        <item>9 Meses</item>
+        <item>10 a 12 Meses</item>
+        <item>13 Meses</item>
+        <item>14 a 20 Meses</item>
+        <item>21 a 23 Meses</item>
+        <item>24 Meses</item>
+    </string-array>
+    <string name="botao_confirmar">Confimar</string>
+    <string name="txt_final">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Esse aplicativo tem como base dados do Ministério da Saúde,
+                    com relação ao crescimento e desenvolvimento de uma criança.
+                    Lembrando que o conteúdo presente nesse aplicativo não substitui
+                    uma consulta médica.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <!-- ACTIVITY DE QUESTÕES(GÉNERICO -->
+    <string name="inicio">Início</string>
+    <string name="txt_1">Resposda as seguintes questões:</string>
+    <string name="txt_GenSobreUmMes">(Sobre crianças de 1 mês de idade)</string>
+    <string name="txt_GenSobreDoisMes">(Sobre crianças de 2 meses de idade)</string>
+    <string name="txt_GenSobreTresMes">(Sobre crianças de 3 meses de idade)</string>
+    <string name="txt_GenSobreQuatMes">(Sobre crianças de 4 meses de idade)</string>
+    <string name="txt_GenSobreCinMes">(Sobre crianças de 5 meses de idade)</string>
+    <string name="txt_GenSobreSeisMes">(Sobre crianças de 6 meses de idade)</string>
+    <string name="txt_GenSobreSeteMes">(Sobre crianças de 7 meses de idade)</string>
+    <string name="txt_GenSobreOitoMes">(Sobre crianças de 8 meses de idade)</string>
+    <string name="txt_GenSobreNoveMes">(Sobre crianças de 9 meses de idade)</string>
+    <string name="txt_GenSobreDezADozeMes">(Sobre crianças de 10 a 12 meses de idade)</string>
+    <string name="txt_GenSobreTrezeMes">(Sobre crianças de 13 meses de idade)</string>
+    <string name="txt_GenSobreQuatorzeAVinteMes">(Sobre crianças de 14 a 20 meses de idade)</string>
+    <string name="txt_GenSobreVinteAVinteTresMes">(Sobre crianças de 20 a 23 meses de idade)</string>
+    <string name="txt_GenSobreVinteQuatroMes">(Sobre crianças de 24 meses de idade)</string>
+    <string name="hab_desenvol">HABILIDADES DESENVOLVIDAS</string>
+    <string name="hab_desenvol_sub">(A maioria das crianças possuem tais habilidades)</string>
+    <string name="hab_emDesenvol">HABILIDADES EM DESENVOLVIMENTO</string>
+    <string name="hab_emDesenvol_sub">(Boa parte das crianças possuem tais habilidades)</string>
+    <string name="hab_avancadas">HABILIDADES AVANÇADAS</string>
+    <string name="hab_avancadas_sub">(algumas crianças possuem tais habilidades)</string>
+
+
+    <!-- QUESTÕES UM MÊS -->
+    <string name="UmMes_Primeira">A criança levanta a cabeça?</string>
+    <string name="UmMes_Segunda">Reage a sons?</string>
+    <string name="UmMes_Terceira">Olha fixo para rostos?</string>
+
+    <string name="UmMes_Quarta">A criança segue objetos com o olhar?</string>
+    <string name="UmMes_Quinta">Emite sons de vogal ("\""a"\"", "\""u"\"")?</string>
+
+    <string name="UmMes_Sexta">A criança sorri?</string>
+    <string name="UmMes_Setima">Dá gargalhada?</string>
+
+    <string-array name="questionario">
+        <item>Selecione</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+
+    <!-- QUESTÕES 2 MESES -->
+    <string name="DoisMeses_Primeira">A criança vocaliza sons como "\""arru"\"" e "\""agu"\""?</string>
+    <string name="DoisMeses_Segunda">Segue objetos com o olhar?</string>
+    <string name="DoisMeses_Terceira">Mantém a cabeça erguida por curtos períodos?</string>
+
+    <string name="DoisMeses_Quarta">A criança sorri ou dá gargalhadas?</string>
+    <string name="DoisMeses_Quinta">Levanta a cabeça num angulo de 45 graus?</string>
+
+    <string name="DoisMeses_Sexta">A criança segura a cabeça com firmeza?</string>
+    <string name="DoisMeses_Setima">Apoia peso nas pernas?</string>
+
+    <!-- QUESTOES 3 MESES -->
+    <string name="TresMeses_Primeira">A criança dá gargalhada?</string>
+    <string name="TresMeses_Segunda">Segura a cabeça com firmeza?</string>
+    <string name="TresMeses_Terceira">Reconhece seu rosto e seu cheiro?</string>
+
+    <string name="TresMeses_Quarta">A criança da gritinhos, faz "\""arru"\"" e "\""agu"\""?</string>
+    <string name="TresMeses_Quinta">Reconhece sua voz?</string>
+
+    <string name="TresMeses_Sexta">A criança vira a cabeça na direção de barulhos altos?</string>
+    <string name="TresMeses_Setima">Junta as mãos e bate a mão nos brinquedos?</string>
+
+    <!-- QUESTOES 4 MESES -->
+    <string name="QuartoMeses_Primeira">A criança segura a cabeça com firmeza?</string>
+    <string name="QuartoMeses_Segunda">Consegue apoiar o peso nas pernas?</string>
+    <string name="QuartoMeses_Terceira">Responde com sons quando você fala com ela?</string>
+
+    <string name="QuartoMeses_Quarta">A criança consegue segurar um brinquedo?</string>
+    <string name="QuartoMeses_Quinta">Consegue se virar deitada?</string>
+
+    <string name="QuartoMeses_Sexta">A criança imita sons de fala, como "\""baba"\"" ou "\""dada"\""?</string>
+    <string name="QuartoMeses_Setima">Estica o braço para pegar objetos?</string>
+
+    <!-- QUESTOES 5 MESES -->
+    <string name="CincoMeses_Primeira">A criança consegue distinguir cores primárias?</string>
+    <string name="CincoMeses_Segunda">Consegue se virar deitada?</string>
+    <string name="CincoMeses_Terceira">Consegue se distrair com as mãos e os pés?</string>
+
+    <string name="CincoMeses_Quarta">A criança vira na direção de barulhos novos?</string>
+    <string name="CincoMeses_Quinta">Reconhece o proprio nome? ("\""a"\"", "\""u"\"")?</string>
+
+    <string name="CincoMeses_Sexta">A criança fica um pouquinho sentada sem apoio?</string>
+    <string name="CincoMeses_Setima">Põe objetos na boca?</string>
+
+    <!-- QUESTOES 6 MESES -->
+    <string name="SeisMeses_Primeira">A criança vira na direção de sons e vozes?</string>
+    <string name="SeisMeses_Segunda">Imita sons?</string>
+    <string name="SeisMeses_Terceira">Rola nas duas direções quando deitada?</string>
+
+    <string name="SeisMeses_Quarta">A criança estica o braço para pegar objetos e os põe na boca?</string>
+    <string name="SeisMeses_Quinta">Senta sem apoio?</string>
+
+    <string name="SeisMeses_Sexta">A criança engatinha ou se arrasta para frente?</string>
+    <string name="SeisMeses_Setima">Puxa objetos em sua direção?</string>
+
+    <!-- QUESTOES 7 MESES -->
+    <string name="SeteMeses_Primeira">A criança quando levantada pelos braços, ajuda com o corpo?</string>
+    <string name="SeteMeses_Segunda">Vira a cabeça na direção de uma voz ou objeto sonoro?</string>
+    <string name="SeteMeses_Terceira">Reconhece quando se dirigem a ela?</string>
+
+    <string name="SeteMeses_Quarta">A criança senta-se sem apoio?</string>
+    <string name="SeteMeses_Quinta">Segura e transfere objetos de uma mão para a outra?</string>
+
+    <string name="SeteMeses_Sexta">A criança responde diferentemente a pessoas familiares e/ou estranhos?</string>
+    <string name="SeteMeses_Setima">Imita pequenos gestos ou brincadeiras?</string>
+
+    <!-- QUESTOES 8 MESES -->
+    <string name="OitoMeses_Primeira">A criança vira a cabeça na direção de uma voz ou objeto sonoro?</string>
+    <string name="OitoMeses_Segunda">Reconhece quando se dirigem a ela?</string>
+    <string name="OitoMeses_Terceira">Senta-se sem apoio?</string>
+
+    <string name="OitoMeses_Quarta">A criança segura e transfere objetos de uma mão para a outra?</string>
+    <string name="OitoMeses_Quinta">Responde diferentemente a pessoas familiares e/ou estranhos?</string>
+
+    <string name="OitoMeses_Sexta">A criança imita pequenos gestos ou brincadeiras?</string>
+    <string name="OitoMeses_Setima">Arrasta-se ou engatinha?</string>
+
+    <!-- QUESTOES 9 MESES -->
+    <string name="NoveMeses_Primeira">A criança segura e transfere objetos de uma mão para a outra?</string>
+    <string name="NoveMeses_Segunda">Responde diferentemente a pessoas familiares e/ou estranhos?</string>
+    <string name="NoveMeses_Terceira">Imita pequenos gestos ou brincadeiras?</string>
+
+    <string name="NoveMeses_Quarta">A criança arrasta-se ou engatinha?</string>
+    <string name="NoveMeses_Quinta">Pega objetos usando o polegar e o indicador?</string>
+
+    <string name="NoveMeses_Sexta">A criança emprega pelo menos uma palavra com sentido?</string>
+    <string name="NoveMeses_Setima">Faz gestos com a mão e a cabeça(tchau, não, bate palmas, etc.)?</string>
+
+    <!-- QUESTOES 10 a 12 MESES -->
+    <string name="DezADozeMeses_Primeira">A criança responde diferentemente a pessoas familiares e/ou estranhos?</string>
+    <string name="DezADozeMeses_Segunda">Imita pequenos gestos ou brincadeiras?</string>
+    <string name="DezADozeMeses_Terceira">Arrasta-se ou engatinha?</string>
+
+    <string name="DezADozeMeses_Quarta">A criança pega objetos usando o polegar e o indicador?</string>
+    <string name="DezADozeMeses_Quinta">Emprega pelo menos uma palavra com sentido?</string>
+
+    <string name="DezADozeMeses_Sexta">A criança faz gestos com a mão e a cabeça(tchau, não, bate palmas, etc.)?</string>
+    <string name="DezADozeMeses_Setima">Anda sozinha, com algumas quedas?</string>
+
+    <!-- QUESTOES 13 MESES -->
+    <string name="TrezeMeses_Primeira">A criança pega objetos usando o polegar e o indicador?</string>
+    <string name="TrezeMeses_Segunda">Emprega pelo menos uma palavra com sentido?</string>
+    <string name="TrezeMeses_Terceira">Faz gestos com a mão e a cabeça(tchau, não, bate palmas, etc.)?</string>
+
+    <string name="TrezeMeses_Quarta">Tira sozinha qualquer peça do vestuário?</string>
+    <string name="TrezeMeses_Quinta">A criança anda sozinha, com algumas quedas?</string>
+
+    <string name="TrezeMeses_Sexta">A criança combina pelo menos 2 ou 3 palavras?</string>
+    <string name="TrezeMeses_Setima">Distancia-se da mãe sem perdê-la de vista?</string>
+
+    <!-- QUESTOES 14 a 20 MESES -->
+    <string name="QuartorzeAVinteMeses_Primeira">A criança faz gestos com a mão e a cabeça(tchau, não, bate palmas, etc.)?</string>
+    <string name="QuartorzeAVinteMeses_Segunda">Anda sozinha, com algumas quedas?</string>
+    <string name="QuartorzeAVinteMeses_Terceira">Tira sozinha qualquer peça do vestuário?</string>
+
+    <string name="QuartorzeAVinteMeses_Quarta">A criança combina pelo menos 2 ou 3 palavras?</string>
+    <string name="QuartorzeAVinteMeses_Quinta">Distancia-se da mãe sem perdê-la de vista?</string>
+
+    <string name="QuartorzeAVinteMeses_Sexta">A criança sorri?</string>
+    <string name="QuartorzeAVinteMeses_Setima">Corre e/ou sobe degraus baixos?</string>
+
+    <!-- QUESTOES 21 a 23 MESES -->
+    <string name="VinteUmAVinteTresMeses_Primeira">A criança corre e/ou sobe degraus baixos?</string>
+    <string name="VinteUmAVinteTresMeses_Segunda">Leva os alimentos à boca com sua própria mão?</string>
+    <string name="VinteUmAVinteTresMeses_Terceira">Diz seu próprio nome e nomeia objetos como sendo seu?</string>
+
+    <string name="VinteUmAVinteTresMeses_Quarta">A criança veste-se com auxílio?</string>
+    <string name="VinteUmAVinteTresMeses_Quinta">Fica sobre um pé, momentaneamente?</string>
+
+    <string name="VinteUmAVinteTresMeses_Sexta">A criança usa frases?</string>
+    <string name="VinteUmAVinteTresMeses_Setima">Reconhece mais de duas cores?</string>
+
+    <!-- QUESTOES 24 MESES -->
+    <string name="VinteQuatroMeses_Primeira">A criança fica sobre um pé, momentaneamente?</string>
+    <string name="VinteQuatroMeses_Segunda">Usa frases?</string>
+    <string name="VinteQuatroMeses_Terceira">Reconhece mais de duas cores?</string>
+
+    <string name="VinteQuatroMeses_Quarta">A criança pula sobre um pé só?</string>
+    <string name="VinteQuatroMeses_Quinta">Brinca com outras crianças?</string>
+
+    <string name="VinteQuatroMeses_Sexta">A criança imita pessoas da vida cotidiana (pai, mãe, médico, etf.)?</string>
+    <string name="VinteQuatroMeses_Setima">Veste-se sozinha?</string>
+
+
+
+
+    <!--QUESTIONARIO -->
+    <string name="erro_quest">Você esqueceu de responder algum(uns) campo(os)!</string>
+    <string name="title_activity_resultado">ResultadoActivity</string>
+
+
+    <!-- DIAGNOSTICO -->
+    <string name="diag">Diagnóstico:</string>
+    <string name="resposta1_part1">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Ops! O crescimento da criança é considerado INADEQUADO.
+                    A sua criança NÃO POSSUI
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+    <string name="resposta_partfinal">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     habilidade(s) que ja é/são devesenvolvida(s) em crianças de mesma idade.
+                    Procure um médico especialista para mais informações.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <string name="resposta2">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Ops! O crescimento da criança é considerado INADEQUADO.
+                    Procure um médico especialista para mais informações.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <string name="resposta3">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Que bom! O crescimento da criança é considerado ADEQUADO.
+                    Mas a sua criança NÃO POSSUI
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <string name="resposta4">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Que bom! O crescimento da criança é considerado ADEQUADO.
+                    Procure um médico especialista para mais informações.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <string name="resposta5">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Parabéns!!! O crescimento da criança é considerado MAIS que ADEQUADO.
+                    Procure um médico especialista para mais informações.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+    <string name="resposta6">
+                    <![CDATA[
+                    <html>
+                     <head></head>
+                     <body style="text-align:justify;color:black;background-color:#fff4bc;    text-justify: kashida;
+                        text-align:justify;
+                        width: 50%;
+                        position: absolute;
+                        display: block;">
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                    Que demais!!! O crescimento da criança é considerado MUITO MELHOR do que o esperado.
+                    Procure um médico especialista para mais informações.
+                     </body>
+                    </html>
+                    ]]>
+    </string>
+
+</resources>
